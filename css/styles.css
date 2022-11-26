@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #285430;
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+  font-weight: normal;
+  color: #285430;
+  font-family: 'Martel', serif;
+  margin: 0 auto;
+  font-size: 2.5rem
+}
+
+h3 {
+  color: #285430;
+  font-family: 'Martel', serif;
+}
+
+a {
+  color: #285430;
+  font-family: 'Martel', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAEAEA
+}
+hr {
+  border: 8px dotted #EAEAEA;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+/* --------------------------- Class styles ---------------------- */
+
+.top-container {
+  background-color: #A4BE7B;
+  position: relative;
+  padding: 100px;
+}
+.middle-container {
+  margin-top: 20px;
+}
+.bottom-container {
+  background-color: #5F8D4E;
+  padding: 50px 0 20px;
+  font-weight: bold;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+  bottom: 300px;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.top-cloud {
+  position: absolute;
+  right:25%;
+  top: 50px;
+}
+
+.manufacturing-img {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.it-img {
+  margin-left: 30px;
+  width: 25%;
+  float: right;
+}
+
+.twitch-img {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+  background: #5F8D4E;
+  background-image: -webkit-linear-gradient(top, #5F8D4E, #285430);
+  background-image: -moz-linear-gradient(top, #5F8D4E, #285430);
+  background-image: -ms-linear-gradient(top, #5F8D4E, #285430);
+  background-image: -o-linear-gradient(top, #5F8D4E, #285430);
+  background-image: linear-gradient(to bottom, #5F8D4E, #285430);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.contact-me {
+  margin-bottom: 100px;
+}
+.btn:hover {
+  background: #A4BE7B;
+  background-image: -webkit-linear-gradient(top, #A4BE7B, #9ac752);
+  background-image: -moz-linear-gradient(top, #A4BE7B, #9ac752);
+  background-image: -ms-linear-gradient(top, #A4BE7B, #9ac752);
+  background-image: -o-linear-gradient(top, #A4BE7B, #9ac752);
+  background-image: linear-gradient(to bottom, #A4BE7B, #9ac752);
+  text-decoration: none;
+}
+
+.copyright {
+  color: white;
+  font-family: 'Martel', serif;
+  font-size: .75rem;
+  padding: 20px 0;
+}
